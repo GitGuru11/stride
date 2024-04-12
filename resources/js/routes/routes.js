@@ -9,7 +9,6 @@ const PostsCreate = () => import("../views/admin/posts/Create.vue");
 const PostsEdit = () => import("../views/admin/posts/Edit.vue");
 
 function requireLogin(to, from, next) {
-    let a;
     let isLogin = false;
     isLogin = !!store.state.auth.authenticated;
 
