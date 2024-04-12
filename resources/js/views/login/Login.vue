@@ -11,6 +11,7 @@
                                     <label for="email" class="form-label">{{
                                         $t("email")
                                     }}</label>
+                                    <span></span>
                                     <input
                                         v-model="loginForm.email"
                                         id="email"
